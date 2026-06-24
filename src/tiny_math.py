@@ -1,6 +1,8 @@
 def add(left: int, right: int) -> int:
     return left + right
 
+def subtract(left: int, right: int) -> int:
+    return left - right
 
 def describe_number(value: int) -> str:
     if value < 0:
